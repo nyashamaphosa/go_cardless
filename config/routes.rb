@@ -1,4 +1,10 @@
 GoCardless::Application.routes.draw do
+  get "customers/index"
+
+  get "customers/new"
+
+  get "customers/show"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
